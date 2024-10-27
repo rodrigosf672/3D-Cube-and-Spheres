@@ -1,3 +1,74 @@
+# 3D Cube with Moving Spheres using React Three Fiber
+
+This project is a React-based 3D visualization application, designed to facilitate intuitive 3D exploration. Users can add, move, and interact with spheres within a 3x3x3 grid cube, enhancing spatial understanding in a structured 3D space. The app leverages `@react-three/fiber` and `@react-three/drei` for 3D rendering, making 3D interactions accessible and user-friendly.
+
+## Features
+
+- **Add Spheres**: Add spheres to any position within the 3x3x3 grid.
+- **Move Spheres**: Select a sphere and move it using `W`, `A`, `S`, `D`, `Q`, `E`, keys.
+- **Sphere Colors**: 
+  - **Red**: Currently selected sphere (moving-enabled state).
+  - **Blue**: Stationary spheres.
+  - **Purple**: Multiple spheres in the same position.
+- **Labeling**: Each sphere has a unique identifier (e.g., `C01`, `C02`, etc.) which appears alongside the sphere. Toggle labels on and off using the "Toggle Labels" button.
+
+## Controls
+
+1. **Adding Spheres**: Use the form to add spheres to a position within the grid (x, y, z). Valid values range from 0 to 2.
+2. **Selecting Spheres**: Click a sphere to select it (turns red). When multiple spheres are in the same cube position, the one with the lowest index (e.g., `C01`) is selected by default.
+3. **Moving Spheres**:
+   - **W**: Moves the selected sphere up.
+   - **A**: Moves the selected sphere left.
+   - **S**: Moves the selected sphere down.
+   - **D**: Moves the selected sphere right.
+   - **E**: Moves the sphere inward along the z-axis.
+   - **Q**: Moves the sphere outward along the z-axis.
+4. **Toggle Labels**: Click the "Toggle Labels" button to show/hide labels.
+
+## Known Issues and Limitations
+1. If you have too many spheres in the same position, it might become difficult to see the labels, as they might extend too far away. This case is not handled in this implementation.
+2. Cnce you click any of the buttons, selected moving (originally red) sphere will be deselected.
+3. There is currently no limit to the number of spheres you can add. There may be performance degradation if you have an extremely large number of spheres. I added up to 30 spheres in the cube, and there were no noticeable performance issues.
+4. Testing is currently limited to validation that the app does open. It does NOT cover interactivity and responsiveness with the app. I attempted to include mocks for react-three, but it did not work as expected, and testing in the canvas and 3D-interactivity can be extremely challenging. If you have any tips, please let me know! 😊 Or feel free to contribute with your own improvements!
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd 3d-cube-with-moving-spheres
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install react react-dom @react-three/fiber @react-three/drei three --save-dev jest @testing-library/react @testing-library/jest-dom
+   ```
+
+3. Run the app locally:
+   ```bash
+   npm start
+   ```
+
+4. Run test cases (optional, only validates rendering of the app):
+   ```bash
+   npm test
+   ```
+
+## Technologies Used
+
+- **React**: Frontend library for building UI components.
+- **@react-three/fiber** and **@react-three/drei**: Libraries for rendering 3D objects and adding interactive elements in React.
+- **Jest** and **React Testing Library**: For testing React components.
+
+## Acknowledgements
+This project was inspired by reading about the Cube Model in *Huber, F., Jager, B., Erev, I., Cohen, D., Bianchi, S., & Bonfanti, M. (2019). Understanding the crime-terrorism nexus through a dynamic modeling approach. In* *Organized Crime and Terrorist Networks* *(pp. 117-140). Routledge.* My goal is to create a simple and intuitive 3D cube with moving spheres, while also providing a way to explore and understand the Cube Model presented in the article.
+
+---
+
+For more detailed help or contributions, refer to the code comments and documentation. I created this app with React. If you want to create yours as well, check the instructions below. Have fun!
+
+--- 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +139,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 3D-Cube-and-Spheres
