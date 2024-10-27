@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/3D-Cube-and-Spheres/static/css/main.e6c13ad2.css",
+    "main.js": "/3D-Cube-and-Spheres/static/js/main.93469c8d.js",
+    "static/js/453.ea80e7a0.chunk.js": "/3D-Cube-and-Spheres/static/js/453.ea80e7a0.chunk.js",
+    "index.html": "/3D-Cube-and-Spheres/index.html",
+    "main.e6c13ad2.css.map": "/3D-Cube-and-Spheres/static/css/main.e6c13ad2.css.map",
+    "main.93469c8d.js.map": "/3D-Cube-and-Spheres/static/js/main.93469c8d.js.map",
+    "453.ea80e7a0.chunk.js.map": "/3D-Cube-and-Spheres/static/js/453.ea80e7a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.93469c8d.js"
+  ]
+}
