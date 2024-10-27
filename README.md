@@ -14,7 +14,7 @@ This project is a React-based 3D visualization application, designed to facilita
 
 ## Controls
 
-1. **Adding Spheres**: Use the form to add spheres to a position within the grid (x, y, z). Valid values range from 0 to 2.
+1. **Adding Spheres**: Use the form to add spheres to a position within the grid (x, y, z). Valid values are 0, 1, and 2.
 2. **Selecting Spheres**: Click a sphere to select it (turns red). When multiple spheres are in the same cube position, the one with the lowest index (e.g., `C01`) is selected by default.
 3. **Moving Spheres**:
    - **W**: Moves the selected sphere up.
