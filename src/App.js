@@ -565,7 +565,7 @@ const App = () => {
           <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', marginTop: '20px' }}>
             <div title = "Visit the README file for this project for instructions.">
               <button
-                onClick={() => window.open('https://github.com/rodrigosf672/<my-repo-name-TBA>/blob/main/README.md', '_blank')}
+                onClick={() => window.open('https://github.com/rodrigosf672/3D-Cube-and-Spheres/blob/main/README.md', '_blank')}
                 style={{
                   padding: '10px 20px',
                   backgroundColor: 'white',
