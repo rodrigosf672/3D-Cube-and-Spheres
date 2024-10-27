@@ -58,7 +58,7 @@ This project is a React-based 3D visualization application, designed to facilita
 
 - **React**: Frontend library for building UI components.
 - **@react-three/fiber** and **@react-three/drei**: Libraries for rendering 3D objects and adding interactive elements in React.
-- **Jest** and **React Testing Library**: For testing React components.
+- **Jest** and **React Testing Library**: For testing rendering of React app.
 
 ## Acknowledgements
 This project was inspired by reading about the Cube Model in *Huber, F., Jager, B., Erev, I., Cohen, D., Bianchi, S., & Bonfanti, M. (2019). Understanding the crime-terrorism nexus through a dynamic modeling approach. In* *Organized Crime and Terrorist Networks* *(pp. 117-140). Routledge.* My goal is to create a simple and intuitive 3D cube with moving spheres, while also providing a way to explore and understand the Cube Model presented in the article.
