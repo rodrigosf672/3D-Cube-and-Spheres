@@ -29,9 +29,10 @@ This project is a React-based 3D visualization application, designed to facilita
 
 ## Known Issues and Limitations
 1. If you have too many spheres in the same position, it might become difficult to see the labels, as they might extend too far away. This case is not handled in this implementation.
-2. Cnce you click any of the buttons, selected moving (originally red) sphere will be deselected.
+2. Once you click any of the buttons, selected moving (originally red) sphere will be deselected.
 3. There is currently no limit to the number of spheres you can add. There may be performance degradation if you have an extremely large number of spheres. I added up to 30 spheres in the cube, and there were no noticeable performance issues.
 4. Testing is currently limited to validation that the app does open. It does NOT cover interactivity and responsiveness with the app. I attempted to include mocks for react-three, but it did not work as expected, and testing in the canvas and 3D-interactivity can be extremely challenging. If you have any tips, please let me know! 😊 Or feel free to contribute with your own improvements!
+5. Current UI buttons, page adjustments (e.g., zooming in/out), mobile responsiveness, and text size adjustability are limited. Enhancements are planned for future updates to improve usability across devices.
 
 ## Installation
 
