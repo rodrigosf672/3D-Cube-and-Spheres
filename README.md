@@ -4,8 +4,8 @@ This project is a React-based 3D visualization application, designed to facilita
 
 ## Features
 
-- **Add Spheres**: Add spheres to any position within the 3x3x3 grid.
-- **Move Spheres**: Select a sphere and move it using `W`, `A`, `S`, `D`, `Q`, `E`, keys.
+- **Add Spheres**: Add spheres within the 3x3x3 cube by entering `0`, `1`, `2` values corresponding to `x`, `y`, `z` coordinates, which represent the positions within the cube.
+- **Move Spheres**: Select a sphere and move it using `W`, `A`, `S`, `D`, `E`, `Q` keys.
 - **Sphere Colors**: 
   - **Red**: Currently selected sphere (moving-enabled state).
   - **Blue**: Stationary spheres.
@@ -14,16 +14,18 @@ This project is a React-based 3D visualization application, designed to facilita
 
 ## Controls
 
-1. **Adding Spheres**: Use the form to add spheres to a position within the grid (x, y, z). Valid values are 0, 1, and 2.
+1. **Adding Spheres**: Use the form to add spheres to a position within the grid (`x`, `y`, `z`). Valid values are `0`, `1`, and `2`.
 2. **Selecting Spheres**: Click a sphere to select it (turns red). When multiple spheres are in the same cube position, the one with the lowest index (e.g., `C01`) is selected by default.
 3. **Moving Spheres**:
-   - **W**: Moves the selected sphere up.
-   - **A**: Moves the selected sphere left.
-   - **S**: Moves the selected sphere down.
-   - **D**: Moves the selected sphere right.
-   - **E**: Moves the sphere inward along the z-axis.
-   - **Q**: Moves the sphere outward along the z-axis.
-4. **Toggle Labels**: Click the "Toggle Labels" button to show/hide labels.
+   - `W`: Moves the selected sphere up.
+   - `A`: Moves the selected sphere left.
+   - `S`: Moves the selected sphere down.
+   - `D`: Moves the selected sphere right.
+   - `E`: Moves the sphere inward along the z-axis.
+   - `Q`: Moves the sphere outward along the z-axis.
+4. **Remove Spheres**: Clears all spheres from the 3x3x3 cube, resetting it to an empty state.
+5. **Toggle Labels**: Click the "Toggle Labels" button to show/hide labels.
+6. **Reset Cube**: Return the 3x3x3 cube to its initial starting position without clearing any placed spheres.
 
 ## Known Issues and Limitations
 1. If you have too many spheres in the same position, it might become difficult to see the labels, as they might extend too far away. This case is not handled in this implementation.
