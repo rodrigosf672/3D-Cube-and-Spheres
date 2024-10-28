@@ -35,7 +35,7 @@ This project is a React-based 3D visualization application, designed to facilita
 
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/rodrigosf672/3D-Cube-and-Spheres>
+   git clone https://github.com/rodrigosf672/3D-Cube-and-Spheres
    cd 3d-cube-with-moving-spheres
    ```
 
