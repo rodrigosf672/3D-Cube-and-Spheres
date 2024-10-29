@@ -26,6 +26,7 @@ This project is a React-based 3D visualization application, designed to facilita
 4. **Remove Spheres**: Clears all spheres from the 3x3x3 cube, resetting it to an empty state.
 5. **Toggle Labels**: Click the "Toggle Labels" button to show/hide labels.
 6. **Reset Cube**: Return the 3x3x3 cube to its initial starting position without clearing any placed spheres.
+7. **Zoom out/in**: To adjust the zoom on the cube, scroll up to zoom out and scroll down to zoom in.
 
 ## Known Issues and Limitations
 1. If you have too many spheres in the same position, it might become difficult to see the labels, as they might extend too far away. This case is not handled in this implementation.
